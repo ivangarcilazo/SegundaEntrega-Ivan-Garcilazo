@@ -1,5 +1,8 @@
-export default function ManPage(){
+export default function ManPage(props){
+    const{children}=props
     return(
-        <div className="Man"></div>
+        <div className="bodyCategory">
+            {children}
+        </div>
     )
 }

@@ -8,7 +8,6 @@ const NavLinks=()=>{
             <ul>
                 <li><NavLink to={`/category/women`}>Women</NavLink></li>
                 <li><NavLink to={`/category/man`}>Man</NavLink></li>
-                <li><NavLink to={`/category/shoes`}>Shoes</NavLink></li>
                 <li><NavLink to={`/category/sale`}>Sale</NavLink></li>     
             </ul>
         </div>

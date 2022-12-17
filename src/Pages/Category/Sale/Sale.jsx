@@ -1,7 +1,8 @@
-export default function SalePage(){
+export default function SalePage(props){
+    const{children}=props
     return(
-        <div className="Sale">
-            
+        <div className="Shoes">
+            {children}    
         </div>
     )
 }

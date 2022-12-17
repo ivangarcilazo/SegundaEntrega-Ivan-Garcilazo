@@ -13,6 +13,7 @@ import './ItemDetailContainer.css'
 
 export default function ItemDetailContainer(){
     const {id}=useParams()
+    
     const[productDisplay, setProducts]=useState([])
 
     useEffect(()=>{
